@@ -2,15 +2,26 @@
   <MonoDevelop.Ide.ItemProperties.SeminarManagementSystem PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="SeminarManagementSystem/wwwroot/css/site.css">
     <Files>
+<<<<<<< HEAD
+      <File FileName="SeminarManagementSystem/Models/Organiser.cs" Line="9" Column="41" />
+      <File FileName="SeminarManagementSystem/Models/Attendee.cs" Line="17" Column="1" />
+      <File FileName="SeminarManagementSystem/Models/TypeSeminar.cs" Line="12" Column="1" />
+      <File FileName="SeminarManagementSystem/Models/Seminar.cs" Line="14" Column="49" />
+      <File FileName="SeminarManagementSystem/Models/EnrolmentSeminar.cs" Line="11" Column="1" />
+=======
 <<<<<<< Updated upstream
       <File FileName="SeminarManagementSystem/Models/Organiser.cs" Line="19" Column="51" />
       <File FileName="SeminarManagementSystem/Models/Attendee.cs" Line="2" Column="45" />
       <File FileName="SeminarManagementSystem/Models/TypeSeminar.cs" Line="2" Column="1" />
       <File FileName="SeminarManagementSystem/Models/Seminar.cs" Line="13" Column="36" />
       <File FileName="SeminarManagementSystem/Models/EnrolmentSeminar.cs" Line="13" Column="1" />
+>>>>>>> 90deac76a408565acc247ac7f7305b4983a2ba93
       <File FileName="SeminarManagementSystem/Data/database.cs" />
-      <File FileName="SeminarManagementSystem/Views/Home/Index.cshtml" />
       <File FileName="SeminarManagementSystem/Program.cs" Line="26" Column="2" />
+<<<<<<< HEAD
+      <File FileName="SeminarManagementSystem/Controllers/EnrolmentSeminarController.cs" Line="12" Column="57" />
+      <File FileName="SeminarManagementSystem/Controllers/AttendeeController.cs" Line="1" Column="1" />
+=======
 =======
       <File FileName="SeminarManagementSystem/Models/Organiser.cs" Line="15" Column="1" />
       <File FileName="SeminarManagementSystem/Models/Attendee.cs" />
@@ -19,6 +30,7 @@
       <File FileName="SeminarManagementSystem/wwwroot/css/site.css" Line="25" Column="3" />
       <File FileName="SeminarManagementSystem/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
 >>>>>>> Stashed changes
+>>>>>>> 90deac76a408565acc247ac7f7305b4983a2ba93
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,8 +38,11 @@
           <Node name="SeminarManagementSystem" expanded="True">
             <Node name="SeminarManagementSystem" expanded="True">
               <Node name="Controllers" expanded="True" />
+<<<<<<< HEAD
+=======
               <Node name="Data" expanded="True" />
 <<<<<<< Updated upstream
+>>>>>>> 90deac76a408565acc247ac7f7305b4983a2ba93
               <Node name="Models" expanded="True">
                 <Node name="EnrolmentSeminar.cs" selected="True" />
 =======

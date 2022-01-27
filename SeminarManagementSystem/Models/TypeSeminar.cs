@@ -7,7 +7,8 @@ namespace SeminarManagementSystem.Models
     {
         public int typeSeminarID { get; set; }
 
-        [StringLength(30, ErrorMessage = "Please, enter a title with maximum 30 characteres.")]
+        [Required]
+        [StringLength(40, ErrorMessage = "Please, enter a title with maximum 40 characteres.")]
         [Display(Name = "Title")]
         public string typeSeminar_Title { get; set; }
     }
