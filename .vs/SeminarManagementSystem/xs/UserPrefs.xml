@@ -7,7 +7,7 @@
       <File FileName="SeminarManagementSystem/Models/TypeSeminar.cs" />
       <File FileName="SeminarManagementSystem/Models/Seminar.cs" Line="14" Column="65" />
       <File FileName="SeminarManagementSystem/Models/EnrolmentSeminar.cs" Line="10" Column="9" />
-      <File FileName="SeminarManagementSystem/Data/database.cs" Line="13" Column="34" />
+      <File FileName="SeminarManagementSystem/Data/database.cs" Line="18" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
