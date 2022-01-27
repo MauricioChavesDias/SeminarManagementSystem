@@ -1,25 +1,26 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{C9273C13-55E1-41B6-9EBC-560FCDF7266C}|Default">
   <MonoDevelop.Ide.ItemProperties.SeminarManagementSystem PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SeminarManagementSystem/Controllers/EnrolmentSeminarController.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="SeminarManagementSystem/Models/Organiser.cs" Line="9" Column="41" />
-      <File FileName="SeminarManagementSystem/Models/Attendee.cs" Line="16" Column="19" />
+      <File FileName="SeminarManagementSystem/Models/Attendee.cs" Line="17" Column="1" />
       <File FileName="SeminarManagementSystem/Models/TypeSeminar.cs" Line="12" Column="1" />
-      <File FileName="SeminarManagementSystem/Models/Seminar.cs" Line="18" Column="47" />
-      <File FileName="SeminarManagementSystem/Models/EnrolmentSeminar.cs" Line="10" Column="6" />
+      <File FileName="SeminarManagementSystem/Models/Seminar.cs" Line="14" Column="49" />
+      <File FileName="SeminarManagementSystem/Models/EnrolmentSeminar.cs" Line="11" Column="1" />
       <File FileName="SeminarManagementSystem/Data/database.cs" />
       <File FileName="SeminarManagementSystem/Program.cs" Line="26" Column="2" />
-      <File FileName="SeminarManagementSystem/Controllers/EnrolmentSeminarController.cs" Line="1" Column="1" />
+      <File FileName="SeminarManagementSystem/Controllers/EnrolmentSeminarController.cs" Line="12" Column="57" />
+      <File FileName="SeminarManagementSystem/Controllers/AttendeeController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SeminarManagementSystem" expanded="True">
             <Node name="SeminarManagementSystem" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="AttemdeeController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="EnrolmentSeminar.cs" selected="True" />
               </Node>
-              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True" />
             </Node>
           </Node>
