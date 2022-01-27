@@ -7422,23 +7422,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/jc/.nuget/packages/": {},
+    "/Users/mauriciodias/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jc/Projects/KOIDevelopment/SeminarManagementSystem/SeminarManagementSystem/SeminarManagementSystem.csproj",
+      "projectUniqueName": "/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/SeminarManagementSystem.csproj",
       "projectName": "SeminarManagementSystem",
-      "projectPath": "/Users/jc/Projects/KOIDevelopment/SeminarManagementSystem/SeminarManagementSystem/SeminarManagementSystem.csproj",
-      "packagesPath": "/Users/jc/.nuget/packages/",
-      "outputPath": "/Users/jc/Projects/KOIDevelopment/SeminarManagementSystem/SeminarManagementSystem/obj/",
+      "projectPath": "/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/SeminarManagementSystem.csproj",
+      "packagesPath": "/Users/mauriciodias/.nuget/packages/",
+      "outputPath": "/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/jc/.config/NuGet/NuGet.Config"
+        "/Users/mauriciodias/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -7499,7 +7499,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
       }
     }
   }

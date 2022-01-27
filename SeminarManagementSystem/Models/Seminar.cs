@@ -1,4 +1,9 @@
 ﻿using System;
+using System.ComponentModel;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace SeminarManagementSystem.Models
 {
     public class Seminar
