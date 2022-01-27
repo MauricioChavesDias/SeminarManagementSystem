@@ -341,3 +341,8 @@ C:\Users\diogo\Source\Repos\SeminarManagementSystem\SeminarManagementSystem\obj\
 C:\Users\diogo\Source\Repos\SeminarManagementSystem\SeminarManagementSystem\obj\Debug\net5.0\ref\SeminarManagementSystem.dll
 C:\Users\diogo\Source\Repos\SeminarManagementSystem\SeminarManagementSystem\obj\Debug\net5.0\SeminarManagementSystem.pdb
 C:\Users\diogo\Source\Repos\SeminarManagementSystem\SeminarManagementSystem\obj\Debug\net5.0\SeminarManagementSystem.genruntimeconfig.cache
+C:\Users\diogo\Source\Repos\SeminarManagementSystem\SeminarManagementSystem\obj\Debug\net5.0\Razor\Views\Organiser\Create.cshtml.g.cs
+C:\Users\diogo\Source\Repos\SeminarManagementSystem\SeminarManagementSystem\obj\Debug\net5.0\Razor\Views\Organiser\Delete.cshtml.g.cs
+C:\Users\diogo\Source\Repos\SeminarManagementSystem\SeminarManagementSystem\obj\Debug\net5.0\Razor\Views\Organiser\Details.cshtml.g.cs
+C:\Users\diogo\Source\Repos\SeminarManagementSystem\SeminarManagementSystem\obj\Debug\net5.0\Razor\Views\Organiser\Edit.cshtml.g.cs
+C:\Users\diogo\Source\Repos\SeminarManagementSystem\SeminarManagementSystem\obj\Debug\net5.0\Razor\Views\Organiser\Index.cshtml.g.cs
