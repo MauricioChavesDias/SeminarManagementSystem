@@ -7422,34 +7422,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\diogo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/jc/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diogo\\Source\\Repos\\SeminarManagementSystem\\SeminarManagementSystem\\SeminarManagementSystem.csproj",
+      "projectUniqueName": "/Users/jc/Projects/KOIDevelopment/SeminarManagementSystem/SeminarManagementSystem/SeminarManagementSystem.csproj",
       "projectName": "SeminarManagementSystem",
-      "projectPath": "C:\\Users\\diogo\\Source\\Repos\\SeminarManagementSystem\\SeminarManagementSystem\\SeminarManagementSystem.csproj",
-      "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diogo\\Source\\Repos\\SeminarManagementSystem\\SeminarManagementSystem\\obj\\",
+      "projectPath": "/Users/jc/Projects/KOIDevelopment/SeminarManagementSystem/SeminarManagementSystem/SeminarManagementSystem.csproj",
+      "packagesPath": "/Users/jc/.nuget/packages/",
+      "outputPath": "/Users/jc/Projects/KOIDevelopment/SeminarManagementSystem/SeminarManagementSystem/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/jc/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7505,7 +7499,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
       }
     }
   }
