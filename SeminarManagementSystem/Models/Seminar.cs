@@ -5,7 +5,9 @@ namespace SeminarManagementSystem.Models
     {
         //primary key
         public int seminarID { get; set; }
+        public int organiserID { get; set; }
         public Organiser organiser { get; set; }
+        public int typeSeminarID { get; set; }
         public TypeSeminar type { get; set; }
         public string seminar_title { get; set; }
         public string seminar_description { get; set; }

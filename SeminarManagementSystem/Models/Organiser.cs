@@ -10,10 +10,6 @@ namespace SeminarManagementSystem.Models
             public int organiserID { get; set; }
             public string organiser_name { get; set; }
             public DateTime organiser_DOB { get; set; }
-
-
-        
     }
-
 }
 

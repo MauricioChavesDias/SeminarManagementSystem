@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -18,4 +18,8 @@ using SeminarManagementSystem.Models;
         public DbSet<SeminarManagementSystem.Models.Organiser> Organiser { get; set; }
 
         public DbSet<SeminarManagementSystem.Models.TypeSeminar> TypeSeminar { get; set; }
+
+        public DbSet<SeminarManagementSystem.Models.Seminar> Seminar { get; set; }
+
+        public DbSet<SeminarManagementSystem.Models.EnrolmentSeminar> EnrolmentSeminar { get; set; }
     }

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<SeminarManagementSystem.Models.Seminar>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.organiser)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.type)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.seminar_title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.seminar_description)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.organiser.organiserID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.type.typeSeminarID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.seminar_title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.seminar_description)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.seminarID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.seminarID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.seminarID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

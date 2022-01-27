@@ -1,0 +1,42 @@
+﻿@model SeminarManagementSystem.Models.Seminar
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Seminar</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.organiser)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.organiser.organiserID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.type)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.type.typeSeminarID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.seminar_title)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.seminar_title)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.seminar_description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.seminar_description)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.seminarID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
