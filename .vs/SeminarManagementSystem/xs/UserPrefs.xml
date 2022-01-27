@@ -2,12 +2,12 @@
   <MonoDevelop.Ide.ItemProperties.SeminarManagementSystem PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="SeminarManagementSystem/Models/Organiser.cs" Line="9" Column="1" />
-      <File FileName="SeminarManagementSystem/Models/Attendee.cs" Line="8" Column="24" />
+      <File FileName="SeminarManagementSystem/Models/Organiser.cs" Line="12" Column="2" />
+      <File FileName="SeminarManagementSystem/Models/Attendee.cs" />
       <File FileName="SeminarManagementSystem/Models/TypeSeminar.cs" />
       <File FileName="SeminarManagementSystem/Models/Seminar.cs" />
       <File FileName="SeminarManagementSystem/Models/EnrolmentSeminar.cs" />
-      <File FileName="SeminarManagementSystem/Data/database.cs" Line="13" Column="9" />
+      <File FileName="SeminarManagementSystem/Data/database.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +16,7 @@
             <Node name="SeminarManagementSystem" expanded="True">
               <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True">
-                <Node name="Attendee.cs" selected="True" />
+                <Node name="Organiser.cs" selected="True" />
               </Node>
             </Node>
           </Node>
