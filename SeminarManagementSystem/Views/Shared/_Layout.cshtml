@@ -8,38 +8,38 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-        <header>
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Coleguinhas' Site</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Organiser" asp-action="Index">Organiser</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Attendee" asp-action="Index">Attendee</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="TypeSeminar" asp-action="Index">Seminar Type</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Seminar" asp-action="Index">Seminar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="EnrolmentSeminar" asp-action="Index">Enrolment</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+    <header>
 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Coleguinhas' Site</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Organiser" asp-action="Index">Organiser</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Attendee" asp-action="Index">Attendee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="TypeSeminar" asp-action="Index">Seminar Type</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Seminar" asp-action="Index">Seminar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="EnrolmentSeminar" asp-action="Index">Enrolment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diogo\\Source\\Repos\\SeminarManagementSystem\\SeminarManagementSystem\\SeminarManagementSystem.csproj": {}
+    "C:\\Users\\diogo\\source\\repos\\SeminarManagementSystem\\SeminarManagementSystem\\SeminarManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diogo\\Source\\Repos\\SeminarManagementSystem\\SeminarManagementSystem\\SeminarManagementSystem.csproj": {
+    "C:\\Users\\diogo\\source\\repos\\SeminarManagementSystem\\SeminarManagementSystem\\SeminarManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diogo\\Source\\Repos\\SeminarManagementSystem\\SeminarManagementSystem\\SeminarManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\diogo\\source\\repos\\SeminarManagementSystem\\SeminarManagementSystem\\SeminarManagementSystem.csproj",
         "projectName": "SeminarManagementSystem",
-        "projectPath": "C:\\Users\\diogo\\Source\\Repos\\SeminarManagementSystem\\SeminarManagementSystem\\SeminarManagementSystem.csproj",
+        "projectPath": "C:\\Users\\diogo\\source\\repos\\SeminarManagementSystem\\SeminarManagementSystem\\SeminarManagementSystem.csproj",
         "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diogo\\Source\\Repos\\SeminarManagementSystem\\SeminarManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\diogo\\source\\repos\\SeminarManagementSystem\\SeminarManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

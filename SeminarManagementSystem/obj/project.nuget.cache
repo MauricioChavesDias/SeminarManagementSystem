@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NFXURkWftdG8sBKpo/CvGrKan01T9SLdvJscrZ3vEU79q6+YX6g2Cxcd2MTl2waA/7T8SVuZ6tPgzqI2x4x1Sw==",
+  "dgSpecHash": "a9YuB/xGGZmOfolpoYU2SK76XywcivRGrFvZKaEEh2QS8sK7v9oDT0HHQ4r9H+1g0V7w7V3P1V5uzdO90srDkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\diogo\\Source\\Repos\\SeminarManagementSystem\\SeminarManagementSystem\\SeminarManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\diogo\\source\\repos\\SeminarManagementSystem\\SeminarManagementSystem\\SeminarManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diogo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\diogo\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
