@@ -1,28 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/SeminarManagementSystem.csproj": {}
+    "C:\\Users\\diogo\\Source\\Repos\\SeminarManagementSystem\\SeminarManagementSystem\\SeminarManagementSystem.csproj": {}
   },
   "projects": {
-    "/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/SeminarManagementSystem.csproj": {
+    "C:\\Users\\diogo\\Source\\Repos\\SeminarManagementSystem\\SeminarManagementSystem\\SeminarManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/SeminarManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\diogo\\Source\\Repos\\SeminarManagementSystem\\SeminarManagementSystem\\SeminarManagementSystem.csproj",
         "projectName": "SeminarManagementSystem",
-        "projectPath": "/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/SeminarManagementSystem.csproj",
-        "packagesPath": "/Users/mauriciodias/.nuget/packages/",
-        "outputPath": "/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/",
+        "projectPath": "C:\\Users\\diogo\\Source\\Repos\\SeminarManagementSystem\\SeminarManagementSystem\\SeminarManagementSystem.csproj",
+        "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\diogo\\Source\\Repos\\SeminarManagementSystem\\SeminarManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "/Users/mauriciodias/.config/NuGet/NuGet.Config"
+          "C:\\Users\\diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

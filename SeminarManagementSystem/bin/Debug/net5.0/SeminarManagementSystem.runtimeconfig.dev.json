@@ -1,14 +1,10 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-<<<<<<< Updated upstream
-      "/Users/mauriciodias/.dotnet/store/|arch|/|tfm|",
-      "/Users/mauriciodias/.nuget/packages",
-=======
-      "/Users/jc/.dotnet/store/|arch|/|tfm|",
-      "/Users/jc/.nuget/packages",
->>>>>>> Stashed changes
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Users\\diogo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\diogo\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+      "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
     ]
   }
 }
