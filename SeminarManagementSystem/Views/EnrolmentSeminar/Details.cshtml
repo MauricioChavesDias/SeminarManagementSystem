@@ -11,10 +11,22 @@
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.seminarTitle)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.seminarTitle)
+        </dd>
+        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.seminar)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.seminar.seminarID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.attendeeName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.attendeeName)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.attendees)

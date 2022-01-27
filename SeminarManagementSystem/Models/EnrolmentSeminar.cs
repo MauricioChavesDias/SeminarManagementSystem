@@ -5,8 +5,10 @@ namespace SeminarManagementSystem.Models
     {
         public int enrolmentSeminarID { get; set; }
         public int seminarID { get; set; }
+        public string seminarTitle { get; set; }
         public Seminar seminar { get; set; }
         public int attendeeID { get; set; }
+        public string attendeeName { get; set; }
         public Attendee attendees { get; set; }
 
         // many attendees
