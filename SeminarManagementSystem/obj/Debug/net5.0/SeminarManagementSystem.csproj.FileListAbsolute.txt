@@ -340,11 +340,18 @@ C:/Users/diogo/Source/Repos/SeminarManagementSystem/SeminarManagementSystem/obj/
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/SeminarManagementSystem.TagHelpers.input.cache
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/SeminarManagementSystem.TagHelpers.output.cache
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/SeminarManagementSystem.RazorCoreGenerate.cache
+/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/Attendee/Create.cshtml.g.cs
+/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/Attendee/Delete.cshtml.g.cs
+/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/Attendee/Details.cshtml.g.cs
+/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/Attendee/Edit.cshtml.g.cs
+/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/Attendee/Index.cshtml.g.cs
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/EnrolmentSeminar/Create.cshtml.g.cs
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/EnrolmentSeminar/Delete.cshtml.g.cs
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/EnrolmentSeminar/Details.cshtml.g.cs
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/EnrolmentSeminar/Edit.cshtml.g.cs
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/EnrolmentSeminar/Index.cshtml.g.cs
+/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
+/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/Organiser/Create.cshtml.g.cs
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/Organiser/Delete.cshtml.g.cs
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/Organiser/Details.cshtml.g.cs
@@ -373,4 +380,3 @@ C:/Users/diogo/Source/Repos/SeminarManagementSystem/SeminarManagementSystem/obj/
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/ref/SeminarManagementSystem.dll
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/SeminarManagementSystem.pdb
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/SeminarManagementSystem.genruntimeconfig.cache
-/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/SeminarManagementSystem.csproj.AssemblyReference.cache
