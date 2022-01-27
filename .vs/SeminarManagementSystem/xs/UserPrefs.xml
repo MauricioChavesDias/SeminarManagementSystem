@@ -1,21 +1,23 @@
 ﻿<Properties StartupConfiguration="{C9273C13-55E1-41B6-9EBC-560FCDF7266C}|Default">
-  <MonoDevelop.Ide.ItemProperties.SeminarManagementSystem FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SeminarManagementSystem/Models/EnrolmentSeminar.cs">
+  <MonoDevelop.Ide.ItemProperties.SeminarManagementSystem PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SeminarManagementSystem/Data/database.cs">
     <Files>
-      <File FileName="SeminarManagementSystem/Models/Organiser.cs" Line="6" Column="44" />
+      <File FileName="SeminarManagementSystem/Models/Organiser.cs" Line="9" Column="1" />
       <File FileName="SeminarManagementSystem/Models/Attendee.cs" />
       <File FileName="SeminarManagementSystem/Models/TypeSeminar.cs" />
-      <File FileName="SeminarManagementSystem/Models/Seminar.cs" Line="11" Column="32" />
-      <File FileName="SeminarManagementSystem/Models/EnrolmentSeminar.cs" Line="6" Column="39" />
+      <File FileName="SeminarManagementSystem/Models/Seminar.cs" Line="14" Column="65" />
+      <File FileName="SeminarManagementSystem/Models/EnrolmentSeminar.cs" Line="10" Column="9" />
+      <File FileName="SeminarManagementSystem/Data/database.cs" Line="13" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SeminarManagementSystem" expanded="True">
             <Node name="SeminarManagementSystem" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="EnrolmentSeminar.cs" selected="True" />
+              <Node name="Data" expanded="True">
+                <Node name="database.cs" selected="True" />
               </Node>
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
