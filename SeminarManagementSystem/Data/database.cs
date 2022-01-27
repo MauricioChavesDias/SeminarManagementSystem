@@ -14,4 +14,6 @@ using SeminarManagementSystem.Models;
         }
 
         public DbSet<SeminarManagementSystem.Models.Attendee> Attendee { get; set; }
+
+        public DbSet<SeminarManagementSystem.Models.Organiser> Organiser { get; set; }
     }
