@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.SeminarManagementSystem PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="SeminarManagementSystem/Models/Organiser.cs" Line="12" Column="2" />
+      <File FileName="SeminarManagementSystem/Models/Organiser.cs" Line="15" Column="9" />
       <File FileName="SeminarManagementSystem/Models/Attendee.cs" />
       <File FileName="SeminarManagementSystem/Models/TypeSeminar.cs" />
       <File FileName="SeminarManagementSystem/Models/Seminar.cs" />
@@ -18,6 +18,7 @@
               <Node name="Models" expanded="True">
                 <Node name="Organiser.cs" selected="True" />
               </Node>
+              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>
