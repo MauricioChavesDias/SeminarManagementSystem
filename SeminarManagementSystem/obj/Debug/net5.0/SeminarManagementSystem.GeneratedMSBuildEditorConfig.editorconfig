@@ -7,4 +7,8 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = SeminarManagementSystem
+<<<<<<< Updated upstream
 build_property.ProjectDir = /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/
+=======
+build_property.ProjectDir = /Users/jc/Projects/KOIDevelopment/SeminarManagementSystem/SeminarManagementSystem/
+>>>>>>> Stashed changes
