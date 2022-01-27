@@ -164,3 +164,8 @@
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/ref/SeminarManagementSystem.dll
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/SeminarManagementSystem.pdb
 /Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/SeminarManagementSystem.genruntimeconfig.cache
+/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/Attendee/Create.cshtml.g.cs
+/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/Attendee/Delete.cshtml.g.cs
+/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/Attendee/Details.cshtml.g.cs
+/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/Attendee/Edit.cshtml.g.cs
+/Users/mauriciodias/Projects/SeminarManagementSystem/SeminarManagementSystem/obj/Debug/net5.0/Razor/Views/Attendee/Index.cshtml.g.cs
