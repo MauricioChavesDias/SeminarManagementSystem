@@ -1,4 +1,4 @@
-﻿@model IEnumerable<SeminarManagementSystem.Models.Seminar>
+@model IEnumerable<SeminarManagementSystem.Models.Seminar>
 
 @{
     ViewData["Title"] = "Index";
@@ -16,7 +16,7 @@
                 @Html.DisplayNameFor(model => model.organiser)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.type)
+                @Html.DisplayNameFor(model => model.typeSeminar)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.seminar_title)
@@ -31,10 +31,10 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.organiser.organiserID)
+                @Html.DisplayFor(modelItem => item.organiser.organiser_name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.type.typeSeminarID)
+                @Html.DisplayFor(modelItem => item.typeSeminar.typeSeminar_Title)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.seminar_title)

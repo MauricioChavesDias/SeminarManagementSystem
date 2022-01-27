@@ -1,4 +1,4 @@
-﻿@model SeminarManagementSystem.Models.Seminar
+@model SeminarManagementSystem.Models.Seminar
 
 @{
     ViewData["Title"] = "Details";
@@ -14,13 +14,13 @@
             @Html.DisplayNameFor(model => model.organiser)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.organiser.organiserID)
+            @Html.DisplayFor(model => model.organiser.organiser_name)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.type)
+            @Html.DisplayNameFor(model => model.typeSeminar)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.type.typeSeminarID)
+            @Html.DisplayFor(model => model.typeSeminar.typeSeminar_Title)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.seminar_title)

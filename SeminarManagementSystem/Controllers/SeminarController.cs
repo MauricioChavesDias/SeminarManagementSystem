@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -21,7 +21,7 @@ namespace SeminarManagementSystem.Controllers
         // GET: Seminar
         public async Task<IActionResult> Index()
         {
-            var database = _context.Seminar.Include(s => s.organiser).Include(s => s.type);
+            var database = _context.Seminar.Include(s => s.organiser).Include(s => s.typeSeminar);
             return View(await database.ToListAsync());
         }
 
@@ -35,7 +35,7 @@ namespace SeminarManagementSystem.Controllers
 
             var seminar = await _context.Seminar
                 .Include(s => s.organiser)
-                .Include(s => s.type)
+                .Include(s => s.typeSeminar)
                 .FirstOrDefaultAsync(m => m.seminarID == id);
             if (seminar == null)
             {
@@ -48,8 +48,8 @@ namespace SeminarManagementSystem.Controllers
         // GET: Seminar/Create
         public IActionResult Create()
         {
-            ViewData["organiserID"] = new SelectList(_context.Organiser, "organiserID", "organiserID");
-            ViewData["typeSeminarID"] = new SelectList(_context.TypeSeminar, "typeSeminarID", "typeSeminarID");
+            ViewData["organiserID"] = new SelectList(_context.Organiser, "organiserID", "organiser_name");
+            ViewData["typeSeminarID"] = new SelectList(_context.TypeSeminar, "typeSeminarID", "typeSeminar_Title");
             return View();
         }
 
@@ -66,8 +66,8 @@ namespace SeminarManagementSystem.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["organiserID"] = new SelectList(_context.Organiser, "organiserID", "organiserID", seminar.organiserID);
-            ViewData["typeSeminarID"] = new SelectList(_context.TypeSeminar, "typeSeminarID", "typeSeminarID", seminar.typeSeminarID);
+            ViewData["organiserID"] = new SelectList(_context.Organiser, "organiserID", "organiser_name", seminar.organiserID);
+            ViewData["typeSeminarID"] = new SelectList(_context.TypeSeminar, "typeSeminarID", "typeSeminar_Title", seminar.typeSeminarID);
             return View(seminar);
         }
 
@@ -84,8 +84,8 @@ namespace SeminarManagementSystem.Controllers
             {
                 return NotFound();
             }
-            ViewData["organiserID"] = new SelectList(_context.Organiser, "organiserID", "organiserID", seminar.organiserID);
-            ViewData["typeSeminarID"] = new SelectList(_context.TypeSeminar, "typeSeminarID", "typeSeminarID", seminar.typeSeminarID);
+            ViewData["organiserID"] = new SelectList(_context.Organiser, "organiserID", "organiser_name", seminar.organiserID);
+            ViewData["typeSeminarID"] = new SelectList(_context.TypeSeminar, "typeSeminarID", "typeSeminar_Title", seminar.typeSeminarID);
             return View(seminar);
         }
 
@@ -121,8 +121,8 @@ namespace SeminarManagementSystem.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["organiserID"] = new SelectList(_context.Organiser, "organiserID", "organiserID", seminar.organiserID);
-            ViewData["typeSeminarID"] = new SelectList(_context.TypeSeminar, "typeSeminarID", "typeSeminarID", seminar.typeSeminarID);
+            ViewData["organiserID"] = new SelectList(_context.Organiser, "organiserID", "organiser_name", seminar.organiserID);
+            ViewData["typeSeminarID"] = new SelectList(_context.TypeSeminar, "typeSeminarID", "typeSeminar_Title", seminar.typeSeminarID);
             return View(seminar);
         }
 
@@ -136,7 +136,7 @@ namespace SeminarManagementSystem.Controllers
 
             var seminar = await _context.Seminar
                 .Include(s => s.organiser)
-                .Include(s => s.type)
+                .Include(s => s.typeSeminar)
                 .FirstOrDefaultAsync(m => m.seminarID == id);
             if (seminar == null)
             {
