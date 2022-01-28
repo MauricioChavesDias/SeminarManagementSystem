@@ -1,41 +1,53 @@
 @model IEnumerable<SeminarManagementSystem.Models.Organiser>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Organiser";
 }
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-header">Organiser</h1>
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.organiser_name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.organiser_DOB)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.organiser_name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.organiser_DOB)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.organiserID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.organiserID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.organiserID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">
+                            @Html.DisplayNameFor(model => model.organiser_name)
+                        </th>
+                        <th scope="col">
+                            @Html.DisplayNameFor(model => model.organiser_DOB)
+                        </th>
+                        <th scope="col">Editting</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.organiser_name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.organiser_DOB)
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.organiserID">Edit</a> |
+                                <a asp-action="Details" asp-route-id="@item.organiserID">Details</a> |
+                                <a asp-action="Delete" asp-route-id="@item.organiserID">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div class="container d-flex flex-column col-md-8" id="create-button">
+                <button type="button" 
+                        class="col-4 align-self-end btn btn-primary btn-lg"                         
+                        value="Create" 
+                        onclick="location.href='@Url.Action("Create", "Organiser")'"
+                        >
+                        New Organiser
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
