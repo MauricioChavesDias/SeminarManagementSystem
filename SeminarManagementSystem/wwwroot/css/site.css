@@ -124,7 +124,7 @@ body {
     background-color: teal;
     color: #ffffff;
     padding: .5em 1.5em;
-    
+    margin-bottom: 0;
 }
 
 #ttl:hover {
