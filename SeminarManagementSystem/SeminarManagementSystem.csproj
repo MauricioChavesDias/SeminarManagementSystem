@@ -23,4 +23,9 @@
   <ItemGroup>
     <Folder Include="Views\Home\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\Image\image-removebg-preview.png" />
+    <None Include="wwwroot\Image\image2vector.svg" />
+    <None Include="wwwroot\Image\lm.drawio.png" />
+  </ItemGroup>
 </Project>
