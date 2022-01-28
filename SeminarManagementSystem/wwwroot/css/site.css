@@ -123,11 +123,19 @@ body {
     background-color: teal;
     color: #ffffff;
     padding: .5em 1.5em;
-    margin-bottom: 0;
 }
 
 #ttl:hover {
     background-color: rgba(0, 128, 128, 0.7);
     color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#button-na:hover {
+    background-color: #C1DEAE;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#button-na {
+    border-radius: 2em;
+    padding: .5em 1.5em;
 }
