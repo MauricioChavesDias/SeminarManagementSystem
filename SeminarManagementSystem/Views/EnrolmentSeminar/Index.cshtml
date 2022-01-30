@@ -1,0 +1,50 @@
+@model IEnumerable<SeminarManagementSystem.Models.EnrolmentSeminar>
+
+@{
+    ViewData["Title"] = "Enrolment";
+    }
+
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <h1 class="card-header">Enrolment</h1>
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">
+                            @Html.DisplayNameFor(model => model.seminar)
+                        </th>
+                        <th scope="col">
+                            @Html.DisplayNameFor(model => model.attendees)
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.seminar.seminarID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.attendees.attendee_name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.enrolmentSeminarID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.enrolmentSeminarID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.enrolmentSeminarID">Delete</a>
+            </td>
+        </tr>}
+                </tbody>
+            </table>
+            <div class="container d-flex flex-column col-md-8" id="create-button">
+                <button type="button"
+                        class="col-4 align-self-end btn btn-primary btn-lg"
+                        value="Create"
+                        onclick="location.href='@Url.Action("Create", "EnrolmentSeminar")'">
+                    New Enrolment
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
