@@ -17,7 +17,7 @@ namespace SeminarManagementSystem.Models
 
         [Required]
         [StringLength(40, ErrorMessage = "Please, enter a title with maximum 40 characteres.")]
-        [Display(Name = "Title")]
+        [Display(Name = "Seminar")]
         public Seminar seminar {  get;set;}
 
 
