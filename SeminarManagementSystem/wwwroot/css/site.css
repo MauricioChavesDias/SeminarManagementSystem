@@ -140,6 +140,6 @@ body {
     padding: .5em 1.5em;
 }
 
-.form-horizontal .control-label {
-    text-align: left !important; /* !important added for priority in SO snippet. */
+#label-create {
+    float:left;
 }
