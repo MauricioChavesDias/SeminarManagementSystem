@@ -6,40 +6,50 @@
 <div class="container">
     <div class="card">
         <div class="card-body">
-            <h1 class="card-header">Seminar Type</h1>
-            <table class="table">
+
+            <div class="row card-header align-card">
+                <img src="@Url.Content("~/Image/icons/seminar_type_icon.png")" width="60" height="60">
+                <h1 class="header-title">Seminar Type</h1>
+            </div>
+
+            <table id="grid" class="table">
                 <thead class="thead-dark">
                     <tr>
                         <th scope="col">
                             @Html.DisplayNameFor(model => model.typeSeminar_Title)
                         </th>
 
-                        <th scope="col">Editting</th>
+                        <th scope="col">Options</th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach (var item in Model)
                     {
-                    <tr>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.typeSeminar_Title)
-                        </td>
-                        <td>
-                            <a asp-action="Edit" asp-route-id="@item.typeSeminarID">Edit</a> |
-                            <a asp-action="Details" asp-route-id="@item.typeSeminarID">Details</a> |
-                            <a asp-action="Delete" asp-route-id="@item.typeSeminarID">Delete</a>
-                        </td>
-                    </tr>
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.typeSeminar_Title)
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.typeSeminarID">Edit</a> |
+                                <a asp-action="Details" asp-route-id="@item.typeSeminarID">Details</a> |
+                                <a asp-action="Delete" asp-route-id="@item.typeSeminarID">Delete</a>
+                            </td>
+                        </tr>
                     }
                 </tbody>
             </table>
             <div class="container d-flex flex-column col-md-8" id="create-button">
-                <button type="button"
-                        class="col-4 align-self-end btn btn-primary btn-lg"
-                        value="Create"
-                        onclick="location.href='@Url.Action("Create", "TypeSeminar")'">
-                    New Seminar Type
-                </button>
+
+                <div class="row flex-column">
+                    <button type="button"
+                            class="col-4 align-self-end btn btn-primary btn-lg"
+                            value="Create"
+                            onclick="location.href='@Url.Action("Create", "TypeSeminar")'">
+                        <img src="@Url.Content("~/Image/new_icon.png")" width="25" height="25">
+                        New Type
+                    </button>
+                </div>
+
             </div>
         </div>
     </div>

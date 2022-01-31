@@ -22,7 +22,6 @@ a {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
-  
 }
 
 /* Sticky footer styles
@@ -73,32 +72,6 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
-#students{
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-    #students td, #students th {
-        border: 1px solid #ddd;
-        padding: 8px;
-    }
-
-    #students tr:nth-child(even) {
-        background-color: #f2f2f2;
-    }
-
-        #students tr:hover {
-        background-color: #ddd;
-    }
-
-    #students th {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        text-align: left;
-        background-color: #219F94;
-        color: white;
-    }
 
 .card {
     margin-top: .5rem;
@@ -113,11 +86,7 @@ body {
     margin-right: 0;
 }
 
-* {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-}
+
 #ttl {
     border-radius: 2em;
     background-color: teal;
@@ -130,6 +99,7 @@ body {
     color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 #button-na:hover {
     background-color: #C1DEAE;
     color: #ffffff;
@@ -140,6 +110,99 @@ body {
     padding: .5em 1.5em;
 }
 
+
+#button-home:hover {
+    background-color: #018080;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#button-home {
+    border-radius: 2em;
+    padding: .5em 1.5em;
+    background-color: #018080;
+    color: #ffffff;
+}
+
 #label-create {
     float:left;
+}
+
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header-title {
+    color: #018080;
+}
+
+.align-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#students {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#students td, #students th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#students tr:nth-child(even) {
+    background-color: #F2F5C8;
+}
+
+#students tr:hover {
+    background-color: #ddd;
+}
+
+#students th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #219F94;
+    color: white;
+    }
+
+
+#grid {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    #grid td, #grid th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #grid tr:nth-child(even) {
+        background-color: #F2F5C8;
+    }
+
+    #grid tr:hover {
+        background-color: #ddd;
+    }
+
+    #grid th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #219F94;
+        color: white;
+    }
+
+.box {
+    display: flex;
+    align-items: center;
 }

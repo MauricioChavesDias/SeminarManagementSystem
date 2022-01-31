@@ -10,6 +10,8 @@ namespace SeminarManagementSystem.Models
 {
     public class Organiser
     {
+
+        [Display(Name = "Organiser")]
         public int organiserID { get; set; }
 
         [Required]
@@ -19,7 +21,7 @@ namespace SeminarManagementSystem.Models
 
         [Required]
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:dd - MM - yyyy}", ApplyFormatInEditMode = true)]
         [Display(Name = "Date of Birth")]
         public DateTime organiser_DOB { get; set; }
     }

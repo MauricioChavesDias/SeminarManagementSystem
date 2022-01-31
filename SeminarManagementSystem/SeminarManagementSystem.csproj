@@ -25,4 +25,10 @@
     <None Include="wwwroot\Image\image2vector.svg" />
     <None Include="wwwroot\Image\lm.drawio.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\Image\icons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\Image\icons\" />
+  </ItemGroup>
 </Project>

@@ -6,9 +6,13 @@
 <div class="container">
     <div class="card">
         <div class="card-body">
-            <h1 class="card-header">Organiser</h1>
 
-            <table class="table">
+            <div class="row card-header align-card">
+                <img src="@Url.Content("~/Image/icons/organiser_icon.png")" width="60" height="60">
+                <h1 class="header-title">Organiser</h1>
+            </div>
+
+            <table id="grid" class="table">
                 <thead class="thead-dark">
                     <tr>
                         <th scope="col">
@@ -17,7 +21,7 @@
                         <th scope="col">
                             @Html.DisplayNameFor(model => model.organiser_DOB)
                         </th>
-                        <th scope="col">Editting</th>
+                        <th scope="col">Options</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -40,13 +44,17 @@
                 </tbody>
             </table>
             <div class="container d-flex flex-column col-md-8" id="create-button">
-                <button type="button" 
-                        class="col-4 align-self-end btn btn-primary btn-lg"                         
-                        value="Create" 
-                        onclick="location.href='@Url.Action("Create", "Organiser")'"
-                        >
+
+                <div class="row flex-column">
+                    <button type="button"
+                            class="col-4 align-self-end btn btn-primary btn-lg"
+                            value="Create"
+                            onclick="location.href='@Url.Action("Create", "Organiser")'">
+                        <img src="@Url.Content("~/Image/new_icon.png")" width="25" height="25">
                         New Organiser
-                </button>
+                    </button>
+                </div>
+
             </div>
         </div>
     </div>

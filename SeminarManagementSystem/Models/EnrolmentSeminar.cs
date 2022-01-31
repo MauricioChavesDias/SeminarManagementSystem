@@ -9,26 +9,22 @@ namespace SeminarManagementSystem.Models
     public class EnrolmentSeminar
     {
 
-        [Display(Name = "Enrolment ID")]
+        [Display(Name = "Enrolment")]
         public int enrolmentSeminarID { get; set; }
 
-        [Display(Name = "Seminar ID")]
+        [Required]
+        [Display(Name = "Seminar")]
         public int seminarID { get; set; }
 
         [Required]
-        [StringLength(40, ErrorMessage = "Please, enter a title with maximum 40 characteres.")]
+        [Display(Name = "Attendee")]
+        public int attendeeID { get; set; }
+
         [Display(Name = "Seminar")]
         public Seminar seminar {  get;set;}
 
+        [Display(Name = "Attendee")]
+        public Attendee attendee { get; set; }
 
-        [Display(Name = "Attendee ID")]
-        public int attendeeID { get; set; }
-        [Display(Name = "Attendees")]
-        public Attendee attendees { get; set; }
-
-
-
-        // many attendees
-       // public virtual Attendee attendees { get; set; }
     }
 }

@@ -5,6 +5,7 @@ namespace SeminarManagementSystem.Models
 {
     public class Attendee
     {
+        [Display(Name = "Attendee")]
         public int attendeeID { get; set; }
 
         [Required]
@@ -15,8 +16,9 @@ namespace SeminarManagementSystem.Models
 
         [Required]
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
         [Display(Name = "Date of Birth")]
         public DateTime attendee_DOB { get; set; }
+
     }
 }

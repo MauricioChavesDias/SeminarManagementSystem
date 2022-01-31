@@ -21,7 +21,7 @@ namespace SeminarManagementSystem.Controllers
         // GET: EnrolmentSeminar
         public async Task<IActionResult> Index()
         {
-            var database = _context.EnrolmentSeminar.Include(e => e.attendees).Include(e => e.seminar);
+            var database = _context.EnrolmentSeminar.Include(e => e.attendee).Include(e => e.seminar);
             return View(await database.ToListAsync());
         }
 
@@ -34,7 +34,7 @@ namespace SeminarManagementSystem.Controllers
             }
 
             var enrolmentSeminar = await _context.EnrolmentSeminar
-                .Include(e => e.attendees)
+                .Include(e => e.attendee)
                 .Include(e => e.seminar)
                 .FirstOrDefaultAsync(m => m.enrolmentSeminarID == id);
             if (enrolmentSeminar == null)
@@ -49,7 +49,7 @@ namespace SeminarManagementSystem.Controllers
         public IActionResult Create()
         {
             ViewData["attendeeID"] = new SelectList(_context.Attendee, "attendeeID", "attendee_name");
-            ViewData["seminarID"] = new SelectList(_context.Seminar, "seminarID", "seminarID");
+            ViewData["seminarID"] = new SelectList(_context.Seminar, "seminarID", "seminar_title");
             return View();
         }
 
@@ -67,7 +67,7 @@ namespace SeminarManagementSystem.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["attendeeID"] = new SelectList(_context.Attendee, "attendeeID", "attendee_name", enrolmentSeminar.attendeeID);
-            ViewData["seminarID"] = new SelectList(_context.Seminar, "seminarID", "seminarID", enrolmentSeminar.seminarID);
+            ViewData["seminarID"] = new SelectList(_context.Seminar, "seminarID", "seminar_title", enrolmentSeminar.seminarID);
             return View(enrolmentSeminar);
         }
 
@@ -85,7 +85,7 @@ namespace SeminarManagementSystem.Controllers
                 return NotFound();
             }
             ViewData["attendeeID"] = new SelectList(_context.Attendee, "attendeeID", "attendee_name", enrolmentSeminar.attendeeID);
-            ViewData["seminarID"] = new SelectList(_context.Seminar, "seminarID", "seminarID", enrolmentSeminar.seminarID);
+            ViewData["seminarID"] = new SelectList(_context.Seminar, "seminarID", "seminar_title", enrolmentSeminar.seminarID);
             return View(enrolmentSeminar);
         }
 
@@ -122,7 +122,7 @@ namespace SeminarManagementSystem.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["attendeeID"] = new SelectList(_context.Attendee, "attendeeID", "attendee_name", enrolmentSeminar.attendeeID);
-            ViewData["seminarID"] = new SelectList(_context.Seminar, "seminarID", "seminarID", enrolmentSeminar.seminarID);
+            ViewData["seminarID"] = new SelectList(_context.Seminar, "seminarID", "seminar_title", enrolmentSeminar.seminarID);
             return View(enrolmentSeminar);
         }
 
@@ -135,7 +135,7 @@ namespace SeminarManagementSystem.Controllers
             }
 
             var enrolmentSeminar = await _context.EnrolmentSeminar
-                .Include(e => e.attendees)
+                .Include(e => e.attendee)
                 .Include(e => e.seminar)
                 .FirstOrDefaultAsync(m => m.enrolmentSeminarID == id);
             if (enrolmentSeminar == null)
