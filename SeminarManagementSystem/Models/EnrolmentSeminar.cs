@@ -12,12 +12,12 @@ namespace SeminarManagementSystem.Models
         [Display(Name = "Enrolment")]
         public int enrolmentSeminarID { get; set; }
 
-        [Required]
         [Display(Name = "Seminar")]
+        [Required(ErrorMessage = "Please, select a valid seminar.")]
         public int seminarID { get; set; }
 
-        [Required]
         [Display(Name = "Attendee")]
+        [Required(ErrorMessage = "Please, select a valid attendee.")]
         public int attendeeID { get; set; }
 
         [Display(Name = "Seminar")]

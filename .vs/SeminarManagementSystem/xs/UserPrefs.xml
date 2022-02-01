@@ -3,26 +3,26 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="SeminarManagementSystem/Views/EnrolmentSeminar/Index.cshtml">
     <Files>
       <File FileName="SeminarManagementSystem/Views/Seminar/Create.cshtml" Line="27" Column="19" />
-      <File FileName="SeminarManagementSystem/Models/Seminar.cs" Line="23" Column="1" />
-      <File FileName="SeminarManagementSystem/Models/TypeSeminar.cs" Line="14" Column="48" />
-      <File FileName="SeminarManagementSystem/Models/EnrolmentSeminar.cs" Line="28" Column="1" />
-      <File FileName="SeminarManagementSystem/Models/Attendee.cs" Line="19" Column="42" />
-      <File FileName="SeminarManagementSystem/Models/Organiser.cs" Line="24" Column="63" />
-      <File FileName="SeminarManagementSystem/Models/ErrorViewModel.cs" Line="1" Column="1" />
-      <File FileName="SeminarManagementSystem/Views/Attendee/Index.cshtml" Line="46" Column="7" />
-      <File FileName="SeminarManagementSystem/Views/Seminar/Delete.cshtml" Line="1" Column="1" />
+      <File FileName="SeminarManagementSystem/Models/Seminar.cs" />
+      <File FileName="SeminarManagementSystem/Models/TypeSeminar.cs" />
+      <File FileName="SeminarManagementSystem/Models/EnrolmentSeminar.cs" />
+      <File FileName="SeminarManagementSystem/Models/Attendee.cs" />
+      <File FileName="SeminarManagementSystem/Models/Organiser.cs" />
+      <File FileName="SeminarManagementSystem/Models/ErrorViewModel.cs" />
+      <File FileName="SeminarManagementSystem/Views/Attendee/Index.cshtml" />
+      <File FileName="SeminarManagementSystem/Views/Seminar/Delete.cshtml" />
       <File FileName="SeminarManagementSystem/Views/EnrolmentSeminar/Index.cshtml" Line="17" Column="25" />
-      <File FileName="SeminarManagementSystem/Views/Seminar/Index.cshtml" Line="65" Column="80" />
-      <File FileName="SeminarManagementSystem/Views/EnrolmentSeminar/Create.cshtml" Line="17" Column="93" />
-      <File FileName="SeminarManagementSystem/Controllers/EnrolmentSeminarController.cs" Line="166" Column="1" />
-      <File FileName="SeminarManagementSystem/Views/TypeSeminar/Create.cshtml" Line="8" Column="1" />
-      <File FileName="SeminarManagementSystem/Views/Home/Index.cshtml" Line="1" Column="1" />
-      <File FileName="SeminarManagementSystem/Views/Shared/_Layout.cshtml" Line="45" Column="1" />
-      <File FileName="SeminarManagementSystem/Views/Attendee/Create.cshtml" Line="1" Column="1" />
-      <File FileName="SeminarManagementSystem/wwwroot/css/site.css" Line="208" Column="2" />
-      <File FileName="SeminarManagementSystem/Controllers/OrganiserController.cs" Line="1" Column="1" />
-      <File FileName="SeminarManagementSystem/Data/database.cs" Line="26" Column="1" />
-      <File FileName="SeminarManagementSystem/Views/Organiser/Index.cshtml" Line="34" Column="33" />
+      <File FileName="SeminarManagementSystem/Views/Seminar/Index.cshtml" />
+      <File FileName="SeminarManagementSystem/Views/EnrolmentSeminar/Create.cshtml" />
+      <File FileName="SeminarManagementSystem/Controllers/EnrolmentSeminarController.cs" />
+      <File FileName="SeminarManagementSystem/Views/TypeSeminar/Create.cshtml" />
+      <File FileName="SeminarManagementSystem/Views/Home/Index.cshtml" />
+      <File FileName="SeminarManagementSystem/Views/Shared/_Layout.cshtml" />
+      <File FileName="SeminarManagementSystem/Views/Attendee/Create.cshtml" />
+      <File FileName="SeminarManagementSystem/wwwroot/css/site.css" />
+      <File FileName="SeminarManagementSystem/Controllers/OrganiserController.cs" />
+      <File FileName="SeminarManagementSystem/Data/database.cs" />
+      <File FileName="SeminarManagementSystem/Views/Organiser/Index.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,20 +32,6 @@
               <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="EnrolmentSeminar" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
-                <Node name="Home" expanded="True" />
-                <Node name="Organiser" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-                <Node name="Image" expanded="True">
-                  <Node name="icons" expanded="True" />
-                </Node>
-              </Node>
             </Node>
           </Node>
         </State>
